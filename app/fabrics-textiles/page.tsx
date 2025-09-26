@@ -20,12 +20,12 @@ const saveCartToStorage = (cart: CartItem[]) => {
 
 export default function FabricsTextiles() {
   const products: Product[] = [
-    { id: 1, name: "Premium Cotton Fabric", image: "/fabrics/cotton.jpg", description: "Soft and breathable cotton fabric suitable for casual and formal wear.", price: 500 },
-    { id: 2, name: "Linen Fabric", image: "/fabrics/linen.jpg", description: "Lightweight, durable linen perfect for summer outfits.", price: 650 },
-    { id: 3, name: "Silk Fabric", image: "/fabrics/silk.jpg", description: "Luxurious silk fabric for premium garments and accessories.", price: 1200 },
-    { id: 4, name: "Wool Fabric", image: "/fabrics/wool.jpg", description: "Warm and soft wool fabric suitable for coats and winter wear.", price: 900 },
-    { id: 5, name: "Denim Fabric", image: "/fabrics/denim.jpg", description: "High-quality denim for jackets, jeans, and casual wear.", price: 700 },
-    { id: 6, name: "Chiffon Fabric", image: "/fabrics/chiffon.jpg", description: "Light and flowy chiffon ideal for dresses and scarves.", price: 550 },
+    { id: 1, name: "Premium Cotton Fabric", image: "/fabrics/cotton.jpg", description: "Soft and breathable cotton fabric suitable for casual and formal wear.", price: 8 },
+    { id: 2, name: "Linen Fabric", image: "/fabrics/linen.jpg", description: "Lightweight, durable linen perfect for summer outfits.", price: 12 },
+    { id: 3, name: "Silk Fabric", image: "/fabrics/silk.jpg", description: "Luxurious silk fabric for premium garments and accessories.", price: 12 },
+    { id: 4, name: "Wool Fabric", image: "/fabrics/wool.jpg", description: "Warm and soft wool fabric suitable for coats and winter wear.", price: 19 },
+    { id: 5, name: "Denim Fabric", image: "/fabrics/denim.jpg", description: "High-quality denim for jackets, jeans, and casual wear.", price: 10 },
+    { id: 6, name: "Chiffon Fabric", image: "/fabrics/chiffon.jpg", description: "Light and flowy chiffon ideal for dresses and scarves.", price: 15 },
   ];
 
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -79,4 +79,5 @@ export default function FabricsTextiles() {
     </div>
   );
 }
+
 
