@@ -69,7 +69,7 @@ export default function CartPage() {
   const handleCheckout = () => setStep("address");
   const handlePaymentNext = () => setStep("review");
   const handleConfirmOrder = () => {
-    alert(`Order Confirmed!\nTotal: ₹${totalPrice}\nPayment: ${paymentMethod}`);
+    alert(`Order Confirmed!\nTotal: £${totalPrice}\nPayment: ${paymentMethod}`);
     saveCart([]);
     setStep("cart");
   };
@@ -97,7 +97,7 @@ export default function CartPage() {
                   <div>
                     <h2 className="text-xl font-semibold">{item.name}</h2>
                     <p className="text-gray-600">{item.description}</p>
-                    <p className="mt-1 font-medium">₹{item.price}</p>
+                    <p className="mt-1 font-medium">£{item.price}</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
@@ -110,7 +110,7 @@ export default function CartPage() {
             ))}
           </div>
           <div className="mt-6 flex justify-between items-center">
-            <h2 className="text-2xl font-bold">Total: ₹{totalPrice}</h2>
+            <h2 className="text-2xl font-bold">Total: £{totalPrice}</h2>
             <Button size="lg" onClick={handleCheckout}>Proceed to Address</Button>
           </div>
         </>
@@ -180,7 +180,7 @@ export default function CartPage() {
               {cart.map(item => (
                 <li key={item.id} className="flex justify-between">
                   <span>{item.name} x {item.qty}</span>
-                  <span>₹{item.price * item.qty}</span>
+                  <span>£{item.price * item.qty}</span>
                 </li>
               ))}
             </ul>
@@ -192,7 +192,7 @@ export default function CartPage() {
           </div>
 
           <div className="flex justify-between items-center mt-6">
-            <h2 className="text-2xl font-bold">Total: ₹{totalPrice}</h2>
+            <h2 className="text-2xl font-bold">Total: £{totalPrice}</h2>
             <Button size="lg" onClick={handleConfirmOrder}>Confirm Order</Button>
           </div>
         </>
@@ -200,3 +200,4 @@ export default function CartPage() {
     </div>
   );
 }
+
