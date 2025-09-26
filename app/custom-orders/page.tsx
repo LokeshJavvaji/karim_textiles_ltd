@@ -91,7 +91,7 @@ export default function CustomOrders() {
             <Image src={product.image} alt={product.name} width={400} height={300} className="rounded-md object-cover" />
             <h2 className="text-xl font-semibold mt-2">{product.name}</h2>
             <p className="text-gray-600 mt-1">{product.description}</p>
-            <p className="font-medium mt-1">₹{product.price}</p>
+            <p className="font-medium mt-1">£{product.price}</p>
             <Button className="mt-4 w-full" onClick={() => addToCart(product)}>Add to Cart</Button>
           </div>
         ))}
@@ -99,3 +99,4 @@ export default function CustomOrders() {
     </div>
   );
 }
+
