@@ -20,11 +20,11 @@ const saveCartToStorage = (cart: CartItem[]) => {
 
 export default function SustainableFabrics() {
   const products: Product[] = [
-    { id: 1, name: "Organic Cotton Fabric", image: "/sustainable/cotton.jpg", description: "Soft, breathable, and eco-friendly cotton fabric for clothing and home textiles.", price: 1200 },
-    { id: 2, name: "Hemp Fabric", image: "/sustainable/hemp.jpg", description: "Eco-friendly hemp fabric that is strong, breathable, and long-lasting.", price: 1100 },
-    { id: 3, name: "Bamboo Fabric", image: "/sustainable/bamboo.jpg", description: "Antibacterial, soft, and sustainable bamboo fabric for comfortable garments.", price: 1500 },
-    { id: 4, name: "Recycled Polyester Fabric", image: "/sustainable/poly.jpg", description: "Durable polyester made from recycled plastic bottles, suitable for fashion and upholstery.", price: 900 },
-    { id: 5, name: "Tencel Fabric", image: "/sustainable/tencel.jpg", description: "Sustainable fabric made from wood pulp, silky smooth and perfect for clothing.", price: 1300 },
+    { id: 1, name: "Organic Cotton Fabric", image: "/sustainable/cotton.jpg", description: "Soft, breathable, and eco-friendly cotton fabric for clothing and home textiles.", price: 12 },
+    { id: 2, name: "Hemp Fabric", image: "/sustainable/hemp.jpg", description: "Eco-friendly hemp fabric that is strong, breathable, and long-lasting.", price: 11 },
+    { id: 3, name: "Bamboo Fabric", image: "/sustainable/bamboo.jpg", description: "Antibacterial, soft, and sustainable bamboo fabric for comfortable garments.", price: 15 },
+    { id: 4, name: "Recycled Polyester Fabric", image: "/sustainable/poly.jpg", description: "Durable polyester made from recycled plastic bottles, suitable for fashion and upholstery.", price: 19 },
+    { id: 5, name: "Tencel Fabric", image: "/sustainable/tencel.jpg", description: "Sustainable fabric made from wood pulp, silky smooth and perfect for clothing.", price: 13 },
   ];
 
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -77,4 +77,5 @@ export default function SustainableFabrics() {
     </div>
   );
 }
+
 
