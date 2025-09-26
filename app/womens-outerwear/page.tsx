@@ -25,35 +25,35 @@ export default function WomensOuterwear() {
     name: "Elegant Palazzo Pants", 
     image: "/outerwear/palazzo.jpg", 
     description: "Comfortable and stylish palazzo pants perfect for casual and formal wear.", 
-    price: 3200 
+    price: 32
   },
   { 
     id: 2, 
     name: "Trendy Croptop", 
     image: "/outerwear/croptop.jpg", 
     description: "Chic croptop designed for everyday fashion and party wear.", 
-    price: 1800 
+    price: 18
   },
   { 
     id: 3, 
     name: "Bodycon Dress", 
     image: "/outerwear/bodycon.jpg", 
     description: "Elegant bodycon dress that hugs your curves and suits any occasion.", 
-    price: 4500 
+    price: 45
   },
   { 
     id: 4, 
     name: "Warm Puffer Jacket", 
     image: "/outerwear/puffer.jpg", 
     description: "Insulated puffer jacket for cold weather and outdoor activities.", 
-    price: 12500 
+    price: 50 
   },
   { 
     id: 5, 
     name: "Lightweight Cardigan", 
     image: "/outerwear/cardigan.jpg", 
     description: "Soft and versatile cardigan for layering in any season.", 
-    price: 4200 
+    price: 30
   },
 ];
 
@@ -109,4 +109,5 @@ export default function WomensOuterwear() {
     </div>
   );
 }
+
 
