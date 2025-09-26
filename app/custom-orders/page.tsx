@@ -25,35 +25,35 @@ export default function CustomOrders() {
     name: "Bespoke Wedding Dress",
     image: "/custom/dress.jpg",
     description: "Handcrafted wedding dresses tailored to your style and measurements.",
-    price: 50000,
+    price: 50,
   },
   {
     id: 2,
     name: "Customized Bed",
     image: "/custom/bed.jpg",
     description: "Design your dream bed with premium materials and perfect dimensions.",
-    price: 30000,
+    price: 60,
   },
   {
     id: 3,
     name: "Customized Chair",
     image: "/custom/chair.jpg",
     description: "Ergonomic and stylish chairs made to your specifications.",
-    price: 8000,
+    price: 40,
   },
   {
     id: 4,
     name: "Custom Sofa",
     image: "/custom/sofa.jpg",
     description: "Luxury sofas tailored for your living room, comfort, and style.",
-    price: 25000,
+    price: 50,
   },
   {
     id: 5,
     name: "Personalized Shoes",
     image: "/custom/shoes.jpg",
     description: "Unique shoes crafted to match your design preferences and size.",
-    price: 7000,
+    price: 25,
   },
 ];
 
@@ -99,4 +99,5 @@ export default function CustomOrders() {
     </div>
   );
 }
+
 
