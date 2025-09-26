@@ -20,12 +20,12 @@ const saveCartToStorage = (cart: CartItem[]) => {
 
 export default function LeatherClothing() {
   const products: Product[] = [
-    { id: 1, name: "Leather Jacket", image: "/leather/jacket.jpg", description: "Classic leather jacket with timeless style and durability.", price: 15000 },
-     { id: 2, name: "Leather Vest", image: "/leather/vest.jpg", description: "Stylish leather vest for casual and formal outfits.", price: 9000 },
-    { id: 3, name: "Leather Coat", image: "/leather/coat.jpg", description: "Elegant long leather coat designed for style and warmth.", price: 22000 },
-    { id: 4, name: "Leather Pants", image: "/leather/pants.jpg", description: "Premium leather pants offering comfort and a modern look.", price: 12000 },
-    { id: 5, name: "Leather Skirt", image: "/leather/skirt.jpg", description: "Chic leather skirt suitable for trendy fashion looks.", price: 7000 },
-    { id: 6, name: "Leather Blazer", image: "/leather/blazer.jpg", description: "Modern leather blazer, perfect for office or evening wear.", price: 18000 },
+    { id: 1, name: "Leather Jacket", image: "/leather/jacket.jpg", description: "Classic leather jacket with timeless style and durability.", price: 25 },
+     { id: 2, name: "Leather Vest", image: "/leather/vest.jpg", description: "Stylish leather vest for casual and formal outfits.", price: 15 },
+    { id: 3, name: "Leather Coat", image: "/leather/coat.jpg", description: "Elegant long leather coat designed for style and warmth.", price: 22 },
+    { id: 4, name: "Leather Pants", image: "/leather/pants.jpg", description: "Premium leather pants offering comfort and a modern look.", price: 12 },
+    { id: 5, name: "Leather Skirt", image: "/leather/skirt.jpg", description: "Chic leather skirt suitable for trendy fashion looks.", price: 16 },
+    { id: 6, name: "Leather Blazer", image: "/leather/blazer.jpg", description: "Modern leather blazer, perfect for office or evening wear.", price: 18 },
   ];
 
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -79,4 +79,5 @@ export default function LeatherClothing() {
     </div>
   );
 }
+
 
