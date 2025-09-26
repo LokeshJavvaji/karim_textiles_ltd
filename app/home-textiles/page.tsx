@@ -20,12 +20,12 @@ const saveCartToStorage = (cart: CartItem[]) => {
 
 export default function HomeTextiles() {
   const products: Product[] = [
-    { id: 1, name: "Elegant Curtains", image: "/home/curtains.jpg", description: "Premium curtains to enhance your living space.", price: 3200 },
-    { id: 2, name: "Luxury Bedsheet Set", image: "/home/bedsheets.jpg", description: "Comfortable and durable bedsheet set with elegant designs.", price: 4500 },
-    { id: 3, name: "Decorative Cushions", image: "/home/cushions.jpg", description: "Stylish cushions for your sofa and bedroom.", price: 1200 },
-    { id: 4, name: "Table Runner Set", image: "/home/table.jpg", description: "Elegant table runners for dining and coffee tables.", price: 900 },
-    { id: 5, name: "Floor Rugs", image: "/home/ugs.jpg", description: "Soft and durable rugs to add warmth to any room.", price: 5200 },
-    { id: 6, name: "Throw Blankets", image: "/home/throws.jpg", description: "Cozy throw blankets for living room and bedroom.", price: 2800 },
+    { id: 1, name: "Elegant Curtains", image: "/home/curtains.jpg", description: "Premium curtains to enhance your living space.", price: 4 },
+    { id: 2, name: "Luxury Bedsheet Set", image: "/home/bedsheets.jpg", description: "Comfortable and durable bedsheet set with elegant designs.", price: 6 },
+    { id: 3, name: "Decorative Cushions", image: "/home/cushions.jpg", description: "Stylish cushions for your sofa and bedroom.", price: 8 },
+    { id: 4, name: "Table Runner Set", image: "/home/table.jpg", description: "Elegant table runners for dining and coffee tables.", price: 9 },
+    { id: 5, name: "Floor Rugs", image: "/home/ugs.jpg", description: "Soft and durable rugs to add warmth to any room.", price: 5 },
+    { id: 6, name: "Throw Blankets", image: "/home/throws.jpg", description: "Cozy throw blankets for living room and bedroom.", price: 8 },
   ];
 
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -79,4 +79,5 @@ export default function HomeTextiles() {
     </div>
   );
 }
+
 
